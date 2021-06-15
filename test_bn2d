@@ -1,7 +1,7 @@
 import time
 import torch
 import numpy as np
-from bn2d3 import BN2d
+from bn2d import BN2d
 
 # 检查是否可以利用GPU
 train_on_gpu = torch.cuda.is_available()
